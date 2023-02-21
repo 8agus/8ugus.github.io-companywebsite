@@ -1,0 +1,111 @@
+body {
+    background: green;
+    margin: 20px;
+}
+
+.svg-container {
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+
+svg {
+    height: 250px;
+    width: 250px;
+    background: black;
+}
+
+.description {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.description div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: yellow;
+
+}
+
+.benefits div {
+    background: yellow;
+}
+.benefits img {
+    height: 200px;
+    width: 133px;
+}
+
+article {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+article img {
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+}
+
+.benefits p {
+    background: gold;
+    margin: 20px;
+    radius: 50%;
+    border-radius: 15px / 20px;
+    padding: 20px;
+}
+
+.benefits h1 {
+    color: green;
+    padding: 10px;
+}
+
+.yogi  {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    color: greenyellow;
+    margin-top: 20px;
+}
+
+#yoda {
+    display: flex;
+    align-items: center;
+
+}
+.yogi img {
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+}
+
+.yogi h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.apprentice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.apprentice p {
+    display: flex;
+    justify-content: center;
+}
+
+.apprentice div {
+    margin: 20px;
+}
+
+#apprent {
+    display: flex;
+    justify-content: center;
+}
